@@ -1,0 +1,19 @@
+{
+  "name": "cypress-uncaugth-resporduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server ./src --proxy http://localhost:8080?",
+    "test": "cypress run --browser chrome",
+    "cypress:open": "cypress open --browser chrome --e2e"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
